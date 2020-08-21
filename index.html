@@ -1,43 +1,59 @@
 <!DOCTYPE html>
 <html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="loginform.css">
 
-	<head>
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title> Wearable Technology</title>
-		<link rel="stylesheet" type="text/css" href="main.css">
-	</head>
-
+</head>
 <body>
-<div class="bg">
-	<div>
-		<header>
-			<h1>Hello there</h1>
-		</header>
-	</div>
 
-	<div style="overflow:auto">
-	  <div class="menu">
-	    <a href="index.html">Home</a>
-	    <a href="register.html">Sign up</a>
-	    <a href="signin.html">Sign in</a>
-	    </div>
+<h1 class="greeting">Welcome</h1>
 
-		<div class="main">
-			<h2>Lorum Ipsum</h2>
-			<p>This is the controller page of the arduino nano.<br>
-				In a few day there will be a buttons and controllers</p>
-		</div>
+<div class="container">
+  <form action="/action_page.php">
+    <div class="row">
+      <h2 style="text-align:center">Login with Social Media or Manually</h2>
+      <div class="vl">
+        <span class="vl-innertext">or</span>
+      </div>
 
-		<div class="right">
-			<h2>About</h2>
-			<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
-		</div>
+      <div class="col">
+        <a href="#" class="fb btn">
+          <i class="fa fa-facebook fa-fw"></i> Login with Facebook
+         </a>
+        <a href="#" class="twitter btn">
+          <i class="fa fa-twitter fa-fw"></i> Login with Twitter
+        </a>
+        <a href="#" class="google btn"><i class="fa fa-google fa-fw">
+          </i> Login with Google+
+        </a>
+      </div>
 
-	</div>
+      <div class="col">
+        <div class="hide-md-lg">
+          <p>Or sign in manually:</p>
+        </div>
 
-	<div style="background-color:#e5e5e5;text-align:center;padding:10px;margin-top:7px;">©</div>
+        <input type="text" name="username" placeholder="Username" required>
+        <input type="password" name="password" placeholder="Password" required>
+        <input type="submit" value="Login">
+      </div>
+      
+    </div>
+  </form>
 </div>
 
-	</body>
+<div class="bottom-container">
+  <div class="row">
+    <div class="col">
+      <a href="#" style="color:white" class="btn">Sign up</a>
+    </div>
+    <div class="col">
+      <a href="#" style="color:white" class="btn">Forgot password?</a>
+    </div>
+  </div>
+</div>
 
+</body>
 </html>
