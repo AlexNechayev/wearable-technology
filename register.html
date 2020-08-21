@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Sign up</title>
+	<link rel="stylesheet" type="text/css" href="main.css">
+</head>
+
+
+<body>	
+	<div class="bg">
+		<header>
+			<nav>
+				<ul id="menu">
+					<li><a href="index.html"><strong>Home</strong></a></li>
+					<li><a href="register.html"><strong>Sign up</strong></a></li>
+					<li><a href="signin.html"><strong>Sign in</strong></a></li>
+				</ul>
+			</nav>
+			<p><h1 id="para1">Register</h1><hr><br></p>
+		</header>
+
+		<form method="GET">
+			Username:<input type="text" name="username"><br>
+			Password:<input type="pasword" minlength="6" name="passowrd"><br>
+			First name:<input type="text" name="firstName"><br>
+			Last  name:<input type="text" name="lastName"><br>
+			Email:<input type="email" required="Enter email"><br>
+			Birthday:<input type="date" name="birth"><br>
+			<p>
+			Gender:<br>
+			<input type="radio" name="gender" value="male">Male<br>
+			<input type="radio" name="gender" value="female">Female<br>
+			<input type="radio" name="gender" value="other">Other<br>
+			</p>
+			<p>
+			Pets:<br>
+			<input type="checkbox" name="dog">Dog<br>
+			<input type="checkbox" name="cat">Cat<br>
+			<input type="checkbox" name="fisg">Fish<br>
+			</p>
+			<p>
+			Cars:
+			<select name="car">
+				<option value=""></option>
+				<option value="volvo">Volvo</option>
+				<option value="BMW">BMW</option>
+				<option value="Audi">Audi</option>
+				<option value="Seat">Seat</option>
+			</select><br>
+			</p>
+			<p>
+				<input type="submit" name="Register!">
+				<input type="reset">
+			</p>
+		</form>
+	</div>
+</body>
+
+</html>
