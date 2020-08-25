@@ -10,8 +10,4 @@ function loginfun() {
 	}
 }
 
-
 loginBtn.addEventListener("click", loginfun);
-
-
-

@@ -2,6 +2,8 @@
 <html>
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="google-signin-client_id" content="218538678042-u7vgii6eg8j23dncrfvqkqpd7h7lkr8v.apps.googleusercontent.com">
+<script src="https://apis.google.com/js/platform.js" async defer></script>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" type="text/css" href="loginform.css">
 
@@ -25,9 +27,10 @@
         <a href="#" class="twitter btn">
           <i class="fa fa-twitter fa-fw"></i> Login with Twitter
         </a>
-        <a href="#" class="google btn"><i class="fa fa-google fa-fw">
-          </i> Login with Google
-        </a>
+        <!-- <a href="#" class="google btn">
+        	<i class="fa fa-google fa-fw"></i> Login with Google
+        </a> -->
+        <div class="g-signin2"></div>
       </div>
 
       <div class="col">
@@ -55,6 +58,6 @@
   </div>
 </div>
 
-<script type="text/javascript" src=script.js></script>
+<script src="https://apis.google.com/js/platform.js" async defer></script>
 </body>
 </html>
